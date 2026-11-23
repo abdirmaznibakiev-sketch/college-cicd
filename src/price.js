@@ -1,4 +1,4 @@
-﻿// Намеренная ошибка: сложение вместо умножения
+﻿// Функция расчёта итоговой стоимости заказа
 export function total(price, quantity) {
-  return price + quantity;
+  return price * quantity;
 }
